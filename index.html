@@ -1,0 +1,1103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8 Little Five Points Case Study">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS Kits-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/index.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xem7dmp.css">
+
+  <!--JavaScript Kits-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="JS/script.js"></script>
+  <script src="https://kit.fontawesome.com/b031701895.js" crossorigin="anonymous"></script>
+
+  <!-- Hotjar Tracking Code for https://srhembree.github.io/UX_UI_HW_19/ -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 2412614, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body>
+  <!-- Nav HTML -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="">
+      <img src="../Portfolio_Little_Five_Points/images/Personal Logo.png" width="141" height="85" alt="Sydney Hembree logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="myFunction()">
+      <!-- data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="dropdown show shadow-sm rounded">
+          <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#3A7673;">
+            Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">COVID-Crushers Mobile App</a>
+            <a class="dropdown-item" href="#">Department of Energy UI Redesign</a>
+            <a class="dropdown-item" href="#">Little Five Points Center Redesign</a>
+            <a class="dropdown-item" href="#">Coding Project</a>
+            <a class="dropdown-item" href="#">Daily UI Challenges</a>
+          </div>
+        </li>
+        <li class="dropdown show shadow-sm rounded">
+          <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#3A7673;">
+            Play
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Photography</a>
+            <a class="dropdown-item" href="#">Illustrations</a>
+          </div>
+        </li>
+        <li class="navbar-btn shadow-sm rounded" style="background-color:#3A7673;">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <form class="form-inline shadow-sm rounded" method="get" action="images/Resume2021.pdf">
+          <button class="btn btn-outline-success"><i class="fa fa-download"
+              href="../Portfolio_Little_Five_Points/images/Resume2021.pdf"></i>Resume</button>
+        </form>
+      </ul>
+    </div>
+    <div class="hamburgerDisplay" id="hamburger">
+      <ul class="hamburgerSection">
+        <li class="hamburgerEntry">
+          <a href="#">Work</a>
+        </li>
+        <li class="hamburgerEntry">
+          <a href="#">Play</a>
+        </li>
+        <li class="hamburgerEntry">
+          <a href="#">About</a>
+        </li>
+        <li class="hamburgerEntry">
+          <a href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <div class="toc toc-none toc-display" id="tableOfContents">
+    <ul class="toc-section">
+      <li class="toc-entry">
+        <a href="#">Home</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#overview">Overview</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#process">Process</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#research">Research</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#definition">Definition</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#ideation">Ideation</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#prototyping">Prototyping</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#testing">Testing</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#styleGuide">Style Guide</a>
+      </li>
+      <li class="toc-entry">
+        <a href="#conclusion">Conclusion</a>
+      </li>
+    </ul>
+  </div>
+  <!--Scrolling Feature HTML-->
+  <button onclick="newFunction()" id="tocsection" title="Navigate through Sections">Contents</button>
+  <!-- Title Section of Case Study -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col">
+            <h1 class="titleHeader1">
+              Little Five Points RWD Design
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card protoVisuals">
+              <img src="../Portfolio_Little_Five_Points/images/desktopScreenTitle.png" class="card-img-top" alt="..."
+                class="img-thumbnail">
+            </div>
+          </div>
+          <div class="col-sm-4 order-12">
+            <div class="card protoVisuals">
+              <img src="../Portfolio_Little_Five_Points/images/L5PCAClogo.png" class="card-img-top" alt="..." class="img-thumbnail">
+            </div>
+          </div>
+          <div class="col-sm-4 order-1">
+            <div class="card protoVisuals">
+              <img src="../Portfolio_Little_Five_Points/images/mobileScreenTitle.png" class="card-img-top" alt="..."
+                class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- Overview Section of Case Study -->
+        <div id="backgroundCS">
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="overview">
+                Overview
+              </h2>
+            </div>
+          </div>
+          <div class="row overviewBox">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col">
+                  <p class="contentTitle">
+                    Timeline:
+                    <span class="contentContent">
+                      March - April 2021
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="contentTitle">
+                    Team:
+                    <br>
+                    <span class="contentContent">
+                      Alyssa Terry - UX/UI Designer
+                    </span>
+                    <br>
+                    <span class="contentContent">
+                      Micah Stokes - UX/UI Designer
+                    </span>
+                    <br>
+                    <span class="contentContent">
+                      Sydney Hembree - UX/UI Designer
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col">
+                  <p class="contentTitle">
+                    Project Type:
+                    <span class="contentContent">
+                      Responsive Web Design
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="contentTitle">
+                    My Role:
+                    <span class="contentContent">
+                      User Research, Sketches, Wireframing, & Prototyping
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="contentTitle">
+                    Tools:
+                    <span class="contentContent">
+                      Figma, InVision, Zoom, Trello, Slack, Adobe Creative Suite, Google Drive, Miro
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+          <!-- Objectives Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Objectives
+              </h3>
+              <div class="maxWidth">
+                <p>Little Five Points Center for Arts & Community, better known as either L5PCAC or the Center, is a nonprofit
+                  center that resides within Atlanta’s Little Five Points community. Their main objective is to house local
+                  nonprofits and assist in their long-term growth; their website was designed to provide information
+                  about the community, rental services within their facilities, and tenant partnerships. However, the website has
+                  not been maintained in places, resulting in a lack of clarity that confuses and overwhelmes users. This team
+                  has taken on the task of bringing the nonprofit’s online presence into 2021.
+
+                  How might we improve the L5PCAC web presence so that users are more likely to use the community center
+                  based on return visits to the site, increased donations, and increased financial gains through property rentals?</p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Process Section for Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="process">
+                Process
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles1">
+                <div class="card-body">
+                  <h5 class="card-title2">Research</h5>
+                  <p class="card-text2">User Research, Competitive Analysis, User Pain Points</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles2">
+                <div class="card-body">
+                  <h5 class="card-title2">Define</h5>
+                  <p class="card-text2">Research Data Analysis, User Persona</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles3">
+                <div class="card-body">
+                  <h5 class="card-title2">Ideate</h5>
+                  <p class="card-text2">User Flow, Card Sorting</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles1">
+                <div class="card-body">
+                  <h5 class="card-title2">Prototype</h5>
+                  <p class="card-text2">Sketches, Lo-Fidelity Wireframes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles2">
+                <div class="card-body">
+                  <h5 class="card-title2">Test</h5>
+                  <p class="card-text2">User Testing, Iterations</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="card protoVisuals processTiles3">
+                <div class="card-body">
+                  <h5 class="card-title2">Style</h5>
+                  <p class="card-text2">Style Guide, High-Fidelity Prototype</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Research Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="research">
+                Research
+              </h2>
+            </div>
+          </div>
+          <!-- User Research Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                User Research
+              </h3>
+              <div class="maxWidth">
+                <p>Each team member had family and friends look over the current website
+                  to determine features that needed updating; these users found the navigation to be cluttered
+                  with outdated information lining the pages, an odd color scheme, and private information on the
+                  organization's public calendar. Our point of contacts at the nonprofit kindly sent
+                  us updated information not found on the site, as well as multimedia to incorporate into
+                  the mobile and desktop prototypes. We researched the area of Little Five Points and
+                  found inspiration that later helped shape the new logo, typography, and color selection.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  User Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>“It's like an edgy teenagers, early 2000s, website on the dark web. But in terms of usability,
+                      [pieces of the website are] not just useless, but actually kind of adorable in how useless they are.”</p>
+                    <footer class="blockquote-footer">Tucker, <cite title="Source Title">User</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  User Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"[The website] looks like somebody who was like, 'yeah, I can design a web page', so it just
+                      looks very basic; not anything that I would definitely be wowed by by any means." </p>
+                    <footer class="blockquote-footer">Nathan, <cite title="Source Title">User</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Stakeholder Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"The current website that we have, the L5PCC.org, is not really reflective of our brand. We
+                      [also] wanted to kind of pick up traffic and so, I feel like our website is really sending a mixed
+                      signal or mixed message"</p>
+                    <footer class="blockquote-footer">Jalen, <cite title="Source Title">L5PCAC Office Manager</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  User Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>"There are too many menu options, the videos are very small to see properly, and why are there
+                      pictures of logos everywhere?"</p>
+                    <footer class="blockquote-footer">Shari, <cite title="Source Title">User</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Competitive Analysis Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Competitive Analysis
+              </h3>
+              <div class="maxWidth">
+                <p>we looked at other companies nearby that would rent out space or offer events to the public,
+                  including theatre companies (Horizon Theatre) and other community centers (Cabbagetown & Alpharetta).
+                  Of course, the Horizon Theatre Company is located onsite and is a tenant partner, but we only learned
+                  that with digging. The other centers had similar amenities (seating, parking, wifi), with outdoor
+                  areas
+                  to host sporting events and camps.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Direct Competitors
+                </div>
+                <div class="card-body competitorAnalysis">
+                  <img src="images/competitor1.png" alt="Horizon Theatre Company Logo">
+                  <img src="images/competitor2.png" alt="Cabbagetown Logo">
+                  <img src="images/competitor3.png" alt="City of Alpharetta Logo">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Indirect Competitors
+                </div>
+                <div class="card-body competitorAnalysis">
+                  <img src="images/competitor4.png" alt="Arts Xchange Logo">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- User Pain Points Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                User Pain Points
+              </h3>
+              <div class="maxWidth">
+                <p>With our research in hand, we narrowed down features to add. Our key takeaways included
+                  improving the website's calendar to incorporate events and programs, adding pages
+                  for current and past events, incorporating in a rental form for users to book available
+                  spaces in the building, improving the logo, and building out a dedicated space for partners
+                  behind a login to hold important information.</p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Definition Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="definition">
+                Definition
+              </h2>
+            </div>
+          </div>
+          <!-- Research Data Analysis Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Research Data Analysis
+              </h3>
+              <div class="maxWidth">
+                <p>During user interviews and surveys, we discovered that, when looking for a space to rent,
+                  users wanted more amenities, parking, and activities to engage children during the event in question.
+                  Therefore, we believe that the community center’s website needs a clearer picture of what they have
+                  to offer clients and we might be able to help by organizing their navigation, updating their brand
+                  to reflect an updated change, and simplifying the graphics and interactive elements.
+                  We might do this by discussing and reflecting client-based needs with stakeholders, researching local
+                  competition for insight, and incorporating long-term business goals into the design to reflect KPIs.
+                  Doing this will allow our product to stand out against the competition and improve rental revenue.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- User Persona/Empathy Map Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                User Persona
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/LaQueesha Brian.png" alt="User Persona">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="card">
+                <div class="card-header">
+                  LaQueesha Brian
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Our user persona, named LaQueesha Brian, is a middle-aged woman with a growing family.
+                      She is a local fitness instructor that is looking for a space to rent with amenities included.
+                      She likes what the Little Five Points Center has to offer, especially the reasonable price for
+                      the amount of time and space given. LaQueesha would also like to enroll her children in the camps
+                      available at the Center while she is working.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Ideation Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="ideation">
+                Ideation
+              </h2>
+            </div>
+          </div>
+          <!-- User Flow/Annotations/Journey Map Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                User Flow
+              </h3>
+              <div class="maxWidth">
+                <p>Currently, users have to hunt for events, information about reserving event spaces, maintenance
+                  request forms for partners, and so on.
+
+                  We propose that users like LaQueesha be able to navigate from the homepage to an any section of the site in less
+                  than three steps, thereby making the website more user-friendly. Users would, in our scenario, follow
+                  the calendar or the navigation bar to rent out a space using an online form, which would streamline the process for
+                  the Center as well.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow1.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow2.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow3.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow4.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow5.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/currentUserFlow6.png" alt="Booking an Event"
+                  class="img-thumbnail">
+              </div>
+            </div>
+          </div>
+          <!-- Card Sorting/Site Map Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Card Sorting & Site Mapping
+              </h3>
+              <div class="maxWidth">
+                <p>We began the process of card-sorting, establishing a user flow, and building out a site map.
+                  We decided to consolidate the website navigation into fewer sub-pages, created a back-end for partners
+                  and the Board of Directors, and updated navigation titles. For example, we changed "Donate" to
+                  "Support Us"
+                  because the website had language explaining how donations are used to support the nonprofit; therefore
+                  the
+                  navigation should emphasize it.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="img-responsive" src="images/teamBuilding.png" alt="Team working through card sorting"
+                  class="img-thumbnail">
+                <div class="card-footer">
+                  The team working through our site map.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="card">
+                    <img class="img-responsive" src="images/cardSortingHeader.png" alt="Card sorting header information"
+                      class="img-thumbnail">
+                    <div class="card-footer">
+                      Original header navigation tags for L5PCAC
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card">
+                    <img class="img-responsive" src="images/cardSortingPartnerships.png"
+                      alt="Card sorting partnership information" class="img-thumbnail">
+                    <div class="card-footer">
+                      Original header navigation tags for L5PCAC
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <img class="img-responsive" src="images/siteMap.png" alt="A breakdown of the site map"
+                      class="img-thumbnail">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Prototyping Section of Case Study -->
+          <!--make dropdowns into buttons to hide pics-->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="prototyping">
+                Prototyping
+              </h2>
+            </div>
+          </div>
+          <!-- Sketches Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Sketches
+              </h3>
+              <div class="maxWidth">
+                <p>We each sketched out ideas of how the homepage should be laid out, highlighting the new logo,
+                  the partners and tenant-partners of L5PCAC, and all the amenities the center offered to the public.
+                  Little Five Points also expressed an interest in what they wanted to keep, which included a donation
+                  page,
+                  an events page, a history/about us page, and a private partner section of the site. These ideas
+                  culminated into
+                  a new navigation system, built for desktop and Android devices.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Desktop
+                </div>
+                <img class="img-responsive" src="images/sketches3.png" alt="Sketches for Desktop">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Desktop #2
+                </div>
+                <img class="img-responsive" src="images/sketches1.png" alt="Sketches for Desktop">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Mobile
+                </div>
+                <img class="img-responsive" src="images/sketches2.png" alt="Sketches for Mobile">
+              </div>
+            </div>
+          </div>
+          <!-- Lo-Fidelity Wireframes Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Lo-Fidelity Wireframes
+              </h3>
+              <div class="maxWidth">
+                <p>From our initial sketches, we combined ideas. The team wanted to resize and make
+                  the site’s calendar interactive to users and partners. We all thought a carousel on the
+                  homepage would welcome visitors and introduce upcoming events. There needed to be a partner page,
+                  as partners and tenant-partners make up this nonprofit's mission. Finally, as the Center is using
+                  social platforms like Facebook heavily, having a Facebook feed made sense. </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Desktop
+                </div>
+                <img class="img-responsive" src="images/Wireframe User Flow 1.png" alt="Chania">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Desktop
+                </div>
+                <img class="img-responsive" src="images/Wireframe User Flow 2.png" alt="Chania">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  Mobile
+                </div>
+                <img class="img-responsive" src="images/Wireframe User Flow Mobile.png" alt="Chania">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Testing Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="testing">
+                Testing
+              </h2>
+            </div>
+          </div>
+          <!-- User Testing Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                User Testing
+              </h3>
+              <div class="maxWidth">
+                <p>Our team conducted three rounds of user testing, including an A/B test,
+                  to improve the website's features. We met with five individuals and had them
+                  perform three tasks, which were to donate $5.00 to the organization, submit an event
+                  rental request form, and log in to the partner homepage. Of the three tasks given, submitting
+                  an event and logging on to the partner page gave users trouble because of how we organized the
+                  navigation.
+                  This observation was quickly addressed and further testing confirmed we had fixed the problem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/userTesting3.png" alt="User Testing">
+                <div class="card-body">
+                  <p class="card-text">“I like that there’s a behind the wall section [for partners].
+                    I like being able to see where my money is going for nonprofits, so the ‘Support Page’ is good.”</p>
+                  <div class="card-bottom">
+                    Ben, Lo-Fidelity User
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/userTesting1.png" alt="User Testing">
+                <div class="card-body">
+                  <p class="card-text">“For some reason ‘Rental’ threw me at first.
+                    I didn’t know whether to go to ‘Events’ or ‘Rental’. [...] I like the look, the layout.
+                    It’s very readable and its’ color scheme and navigation are broken up well.”</p>
+                  <div class="card-bottom">
+                    Jin, High-Fidelity User
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/userTesting2.png" alt="User Testing">
+                <div class="card-body">
+                  <p class="card-text">I think if you change 'Partners' to 'Our Partners' and move it right
+                    beside [the 'Partner Log In'], people will find it faster.” - Nick, A/B User</p>
+                  <div class="card-bottom">
+                    Nick, A/B Testing User
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="maxWidth">
+                <p>We gained a lot of great feedback through user testing and, with those suggestions, we remove the
+                  calendar from the homepage and used the space to highlight upcoming events instead. We expanded the
+                  size of a calendar on the events and partner sub-pages. As stated previously, users tripped up with
+                  our
+                  navigation, so we went back to the drawing board, renaming 'Partners' to 'Our Partners' and 'Rental'
+                  to 'Rental Space', along with shuffling the navbar's tabs to make it more intuitive.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Iteration One Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Iteration One
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Desktop
+                </div>
+                <img class="img-responsive" src="images/iterationOneDesktop.png" alt="First Iteration for Desktop">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Mobile
+                </div>
+                <img class="img-responsive" src="images/iterationOneMobile.png" alt="First Iteration for Mobile">
+              </div>
+            </div>
+          </div>
+          <!-- Iteration Two Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                Iteration Two
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Desktop
+                </div>
+                <img class="img-responsive" src="images/iterationTwoDesktop.png" alt="Second Iteration for Desktop">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  Mobile
+                </div>
+                <img class="img-responsive" src="images/iterationTwoMobile.png" alt="Second Iteration for Mobile">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Style Guide Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="styleGuide">
+                Style Guide
+              </h2>
+              <div class="maxWidth">
+                <p>When brainstorming ideas for the Center's brand, we decided to incorporate pieces of the Little Five
+                  Points community
+                  as the organization is community-centered; for example, the colors in the new logo are from murals
+                  found around
+                  Little Five Points, five-pointed stars are used instead of bullet points, and five pictures are
+                  included in each carousel.
+                  The logo uses “Impact” for its typography as it reminded us of the lettering found on murals as well.
+                  The navigation uses
+                  paint strokes on hover to subtly suggest the artistic flair of the nonprofit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <img class="img-responsive" src="images/typographyStyleTile.png" alt="Typography in Style Tile">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <img class="img-responsive" src="images/colorsButtonsStyleTile.png"
+                  alt="Colors and Buttons in Style Tile">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <img class="img-responsive" src="images/logoStyleTile.png" alt="Logo in Style Tile">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <img class="img-responsive" src="images/graphicsStyleTile.png" alt="Graphics in Style Tile">
+              </div>
+            </div>
+          </div>
+          <!-- High-Fidelity Prototype Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                High-Fidelity Prototype
+              </h3>
+              <div class="maxWidth">
+                <p>During our final iterations, we added in the color scheme based off of graffiti around the Little
+                  Five Points area.
+                  The logo, which used elements that we all brought to the table, helped tie the brand together.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <video width="100%" height="100%" controls="controls">
+                  <source src="images/eventsHighFi.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                  <p class="card-text">Users navigate to the events page through either the 'View Calendar' button on
+                    the homepage
+                    or with the navigation menu. While there, they can interact with an event list and an interactive
+                    calendar to
+                    RSVP for events.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <video width="100%" height="100%" controls="controls">
+                  <source src="images/donateHighFi.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                  <p class="card-text">To donate, users can click on the 'Support Us' tab and scroll to the donate form,
+                    where they can offer an amount of their choosing. Ideally, their payments would be processed through
+                    a third-party site
+                    and they would receive a notification.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <video width="100%" height="100%" controls="controls">
+                  <source src="images/rentalHighFi.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                  <p class="card-text">If users wished to submit a rental request form, they would click on the 'Rental
+                    Space' tab, where
+                    they would find all important information about the process and costs of renting out a space. The
+                    request form is also located
+                    here as an interactive PDF.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <video width="100%" height="100%" controls="controls">
+                  <source src="images/partnerHighFi.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                  <p class="card-text">Tenant-partners and partners now have a separate space for important confidential
+                    information,
+                    namely maintenance request forms, their contracts, the Board of Directors' meetings, and how they
+                    wish to be
+                    portrayed on the website's public partnership subpage.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Conclusion Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader" id="conclusion">
+                Conclusion
+              </h2>
+              <div class="maxWidth">
+                <p>In summary, our team set out to update and reorganize the L5PCAC website to be user-friendly,
+                  with a modern look to match the update. Upon finishing the final iterations, we reached back out to
+                  the nonprofit for feedback; the organization has taken an interest in the design and, with connections
+                  on our end, is recreating it through Wordpress with the help of a web developer. We have since
+                  gathered
+                  the information he needs in order to build and maintain the pages. We look forward to keeping in
+                  touch and assisting where needed.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Thank You Section of Case Study -->
+          <div class="row">
+            <div class="col">
+              <h2 class="titleHeader">
+                - Thank You! -
+              </h2>
+            </div>
+          </div>
+          <hr>
+          <!-- More Projects Sub -->
+          <div class="row">
+            <div class="col">
+              <h3>
+                More Projects
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="images/COVID Crushers.png" alt="COVID Crushers Notification App">
+                <div class="card-body">
+                  <h5 class="card-title">COVID Crushers Mobile Notification App</h5>
+                  <p class="card-text">While the Department of Energy has made amazing changes to its main site,
+                    the agency has ignored the searchability function entirely. With user pain points in hand,
+                    we aimed to correct this.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="images/DOE.png" alt="Department of Energy RWD Redesign">
+                <div class="card-body">
+                  <h5 class="card-title">Department of Energy RWD Redesign</h5>
+                  <p class="card-text">The Little Five Points Center for Arts & Community is reaching people through
+                    Facebook since its website became inaccessible. As the pandemic is now ebbing, the nonprofit
+                    wants to rebrand and get back on track.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="images/Coding.png" alt="Coding Project">
+                <div class="card-body">
+                  <h5 class="card-title">Coding Project</h5>
+                  <p class="card-text">This section will be filled out when this project is complete.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer HTML -->
+  <div class="footer">
+    <div class="wrapper">
+      <div>
+        <img class="logo2" src="../Portfolio_Little_Five_Points/images/Personal Logo.png">
+      </div>
+      <div class="textLinks">
+        <i class="fas fa-envelope"></i>
+        <a class="links" href="mailto:hembree.sydney9@gmail.com">
+          hembree.sydney9@gmail.com</a>
+        <br>
+        <i class="fas fa-phone-alt"></i>
+        <a class="links" href="tel:+16784626556">
+          +1 678-462-6556
+        </a>
+      </div>
+      <div>
+        <img class="socialMedia GitHub" src="../Portfolio_Little_Five_Points/images/githubIcon.png">
+      </div>
+      <div>
+        <img class="socialMedia LinkedIn" src="../Portfolio_Little_Five_Points/images/linkedinIcon.png">
+      </div>
+      <div>
+        <img class="socialMedia FaceBook" src="../Portfolio_Little_Five_Points/images/facebookIcon.png">
+      </div>
+      <div>
+        <h1 class="footerTitle"> Let's chat!</h1>
+      </div>
+      <div>
+        <footer id="copyright">&copy;Sydney Hembree 2021 - All Rights Reserved</footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

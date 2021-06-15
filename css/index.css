@@ -1,0 +1,326 @@
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up)// */
+/* @media (min-width: 1200px) {... } */
+html {
+    scroll-behavior: smooth; 
+}
+/* <!-- Nav CSS --> */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-custom {
+    background-color: #709189;
+}
+.navbar-nav .navbar-btn .nav-link {
+    border-color: #E5584C;
+    font-family: "Gill Sans",Helvetica,Arial,sans-serif;
+    color: #fff !important;
+    background-color: #3A7673;
+}
+.navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Gill Sans",Helvetica,Arial,sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hamburgerDisplay {
+
+}
+#hamburger {
+    display: none; 
+}
+.form-inline {
+    font-family: "Gill Sans",Helvetica,Arial,sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-outline-success {
+    background-color: #E5584C;
+    border: none;
+    color: white;
+    cursor: pointer;
+} 
+.btn-outline-success:hover {
+    background-color: #0D1D21;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #DC423C;
+}
+#backgroundCS {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: #CEDDDC;
+}
+/* <!-- Sidebar (TOC) CSS --> */
+#tocsection {
+    display: block; 
+    position: fixed; 
+    bottom: 15px; 
+    left: 15px; 
+    z-index: 99; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    color: white; 
+    background-color: #E5584C; 
+    border: none; 
+    outline: none; 
+    opacity: 0.5; 
+}
+#tocsection:hover {
+    opacity: 1.0; 
+}
+#tableOfContents {
+    display: none; 
+}
+.toc {
+    position: sticky;
+    top: 26.5rem; 
+    z-index: 1000; 
+    height: 0;
+    padding-left: 0.5rem; 
+}
+.toc-section {
+    padding-left: 5px; 
+    /* border-left: 1px solid black;  */
+    width: 115px; 
+    height: 30px;
+}
+.toc-entry {
+    display: block; 
+    background-color: white; 
+    font-family: "futura-pt";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    width: 100px; 
+    margin: 3px; 
+    color: #912331!important; 
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important; 
+    padding-left: 5px; 
+}
+.titleHeader {
+    text-align: center;
+    color: #1B3B43;
+    font-family: "neusa-next-std";
+    font-style: normal;
+    font-size: 32px;
+    padding: auto;
+}
+.card-header {
+    font-family: "futura-pt";
+    font-size: 20px;
+    color: white;
+    background-color: #1B3B43;
+}
+.card-bottom {
+    font-family: "roboto-condensed";
+    color: black;
+    font-style: normal;
+    font-size: 17px;
+}
+.blockquote-footer {
+    font-family: "futura-pt";
+    font-size: 15px;
+    color: #B4B4B4;
+    font-style: normal;
+}
+.card {
+    margin: 0.4em;
+}
+.titleHeader1 {
+    text-align: center;
+    color: #1B3B43;
+    font-family: "neusa-next-std";
+    font-style: normal;
+    font-size: 45px;
+}
+.protoVisuals {
+    margin: auto; 
+    height: auto;
+    max-width: 100%;
+}
+.card-text {
+    font-size: 15px; 
+}
+.competitorAnalysis img {
+    height: auto;
+    width: 100%;
+}
+.processTiles1 {
+    background-color: #DC423C;
+}
+.processTiles2 {
+    background-color: #3A7673;
+}
+.processTiles3 {
+    background-color: #1B3B43;
+}
+.card-title2 {
+    font-family: "futura-pt";
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+}
+.card-title {
+    font-family: "futura-pt";
+    color: #1B3B43;
+    font-style: normal;
+    font-size: 22px;
+}
+.card-text {
+    font-family: "roboto-condensed";
+    color: #3A7673;
+    font-style: italic;
+    font-size: 15px;
+}
+.card-text2 {
+    font-family: "roboto-condensed";
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+.blockquote p {
+    font-family: "roboto-condensed";
+    color: black;
+    font-style: italic;
+    font-size: 17px;
+}
+.contentTitle {
+    font-size: 25px;
+    font-family: "futura-pt";
+    font-style: bold;
+    color: #1B3B43;
+}
+.contentContent {
+    font-size: 20px; 
+    font-style: normal;
+    font-family: "futura-pt";
+    color: #3A7673;
+}
+.overviewBox {
+    border: 2;
+    color: #1B3B43;
+    border-style: solid;
+}
+img {
+    border: 2;
+    color: #ECC19B;
+    border-style: solid;
+    border-radius: 5px;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "futura-pt";
+    font-style: bold;
+    color: #1B3B43;
+    text-decoration: underline;
+}
+.maxWidth {
+    font-size: 18px; 
+    font-style: normal;
+    font-family: "futura-pt";
+    color: #3A7673;
+    width: 100%
+}
+/* Footer Styles */
+.footer {
+    background-color: #709189;
+    position: relative;
+    bottom: 0;  
+    width: 100vw; 
+    left: 50%; 
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+} 
+.wrapper {
+    height: 140px;
+    color: white;
+}
+.logo2 {
+    height: 90px; 
+    padding: 5px;
+    width: 150px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    margin-left: 40px;
+    position: absolute; 
+    left: 0px; 
+    bottom: 40px; 
+}
+.footerTitle {
+    font-size: 27px; 
+    padding-left: 40px;
+    word-spacing: 10px;
+    position: absolute; 
+    left: 10px; 
+    bottom: 0px; 
+    font-family: "PT Sans"; 
+}
+.socialMedia {
+    height: 65px; 
+    padding: 5px;
+    width: 65px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+    margin-left: 40px;
+    display: block; 
+}
+.GitHub { 
+    position: absolute; 
+    bottom: 40px; 
+    right: 150px; 
+}
+.LinkedIn {
+    position: absolute; 
+    bottom: 40px; 
+    right: 80px; 
+}
+.FaceBook {
+    position: absolute; 
+    bottom: 40px; 
+    right: 10px; 
+}
+#copyright {
+    position: absolute; 
+    bottom: 10px; 
+    right: 5px; 
+    font-size: 12px;
+}
+.links {
+    color: white;
+    font-size: 18px;
+}
+.textLinks {
+    padding: 0px 0px; 
+    position: absolute; 
+    left: 200px; 
+    bottom: 50px; 
+}
+.fa-envelope {
+    margin: 5px;
+}
+.fa-phone-alt {
+    margin: 5px;
+}
